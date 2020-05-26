@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 500px;
+  background: orange;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.item {
+  flex-grow: 1;
+  border: 1px solid black;
+  box-sizing: content-box;
+}
+.item-preferido {
+  flex-grow: 2;
+  border: 1px solid black;
+  box-sizing: content-box;
+}
+.container-v {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  background: lightblue;
+  margin: 20px;
+}
