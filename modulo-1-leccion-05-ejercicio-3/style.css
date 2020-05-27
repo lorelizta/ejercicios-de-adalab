@@ -1,0 +1,9 @@
+.cabecera {
+  background: purple;
+  position: fixed;
+  width: 100%;
+}
+.principal {
+  position: relative;
+  top: 100px;
+}
